@@ -4,6 +4,8 @@
 ([webcast.churchofjesuschrist.org](https://webcast.churchofjesuschrist.org/))
 to YouTube Live.
 
+<kbd><a href="https://www.youtube.com/playlist?list=PLZaEVINf2Bq-FCwibjP4T-HNEY2cHKOYN"><img title="Church Broadcast Tutorial Video Series" alt="Church Broadcast Tutorial Playlist Thumbnail" src="https://user-images.githubusercontent.com/122831/151767100-4fc42099-4ed7-4b6f-bbfa-957a7adc02fe.jpeg"></a></kbd>
+
 The church's web broadcast system is being sunset in June 2022. \
 The approved alternatives are Zoom and YouTube Live.
 
