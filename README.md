@@ -70,7 +70,7 @@ any features that are only available to verified channels.
 
 1. Sign in to https://youtube.com
 2. Select your Church channel from list under the Account Icon in the upper right \
-   **Note**: it is NOT under "Switch Accounts"
+   **Note**: it may appear under the "Switch Accounts" list
 3. Click on your Account Icon in the upper right (again)
 4. Select "YouTube Studio"
    https://studio.youtube.com/
