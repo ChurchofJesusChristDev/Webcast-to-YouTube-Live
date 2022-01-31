@@ -1,8 +1,14 @@
-# Webcast-to-YouTube-Live
+# Church Webcast to YouTube Live
 
-How to migrate from The Church of Jesus Christ Web Broadcast
+> How to migrate from The Church of Jesus Christ Web Broadcast
 ([webcast.churchofjesuschrist.org](https://webcast.churchofjesuschrist.org/))
 to YouTube Live.
+
+The church's web broadcast system is being sunset in June 2022. \
+The approved alternatives are Zoom and YouTube Live.
+
+Although Zoom is more straightforward to use on a one-off basis,
+YouTube Live is a much better **push-button solution** for regular meetings.
 
 # Overview
 
