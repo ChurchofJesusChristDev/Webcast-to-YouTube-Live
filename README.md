@@ -1,7 +1,7 @@
 # Webcast-to-YouTube-Live
 
 How to migrate from The Church of Jesus Christ Web Broadcast
-([webcast.churchofjesuschrist.org/](https://webcast.churchofjesuschrist.org/))
+([webcast.churchofjesuschrist.org](https://webcast.churchofjesuschrist.org/))
 to YouTube Live.
 
 # Overview
@@ -43,15 +43,15 @@ and update the Larix app to broadcast to the new URL
 1. Click "Your Channel" from the Account dropdown
 2. In the top right area click "Customize Channel"
 3. Scroll down on the left panel and click "Settings" (this is channel settings, which is different from your account settings)
-4. Channel \
-   => Basic Info => Keywords => Christian \
-   => Advanced Settings => Not for kids \
-   => Upload Defaults => Title, Description, Tags \
-   => Upload Defaults => Visibility \
-   => Upload Defaults => Advanced Settings => **Comments** \
-   => Permissions => Manage Permissions \
-   => Community => **Block links** \
-   => Community => Defaults => Hold all for review
+4. Channel
+   - Basic Info => Keywords => Christian
+   - Advanced Settings => **Not for kids**
+   - Upload Defaults => Title, Description, Tags
+   - Upload Defaults => Visibility
+   - Upload Defaults => Advanced Settings => **Comments**
+   - Permissions => Manage Permissions
+   - Community => **Block links**
+   - Community => Defaults => Hold all for review
 
 To add moderators you must use their channel URL (the url that they get from clicking "Your Channel" when logged in to their personal account).
 
@@ -60,8 +60,8 @@ To add moderators you must use their channel URL (the url that they get from cli
 1. Click "Your Channel" from the Account dropdown
 2. In the top right area click "Customize Channel"
 3. Scroll down on the left panel and click "Settings" (this is channel settings, which is different from your account settings)
-4. Channel \
-   => Permissions => Manage Permissions
+4. Channel
+   - Permissions => Manage Permissions
 
 # 3. Apply to YouTube Live
 
