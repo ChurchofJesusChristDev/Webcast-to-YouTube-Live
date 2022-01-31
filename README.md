@@ -12,7 +12,8 @@ YouTube Live is a much better **push-button solution** for regular meetings.
 
 # Overview
 
-1. Create a YouTube Account & YouTube Channel
+1. Create a YouTube Account & YouTube Channel \
+   https://youtube.com
 2. Change the YouTube Channel Settings
    - Branding
    - Privacy Settings
