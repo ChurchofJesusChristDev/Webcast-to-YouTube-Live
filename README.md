@@ -20,7 +20,10 @@ YouTube Live is a much better **push-button solution** for regular meetings.
    - Branding
    - Privacy Settings
    - Membership & Permissions
-4. Apply to YouTube Live (and wait 24 hours)
+3. Apply to YouTube Live (and wait 24 hours)
+4. How to set up YouTube Live
+5. How to get your Stream Key
+6. How to set up Larix (iPhone & Android) 
 
 Once your YouTube Live account is ready you'll be able to access your RTMP stream key
 and update the Larix app to broadcast to the new URL
@@ -63,7 +66,8 @@ Example of a good description:
    - Advanced Settings => **Not for kids**
    - Upload Defaults => Title, Description, Tags
      - Example Title: _City Ward Relief Society 10am Sunday Service (2nd & 4th Sundays)_
-     - Example Description: _10am Relief Society (Women's Sunday Services) for The Church of Jesus Christ of Latter-Day Saints of the City Ward on the 2nd and 4th Sundays of each month._
+     - Example Description: _10am Relief Society (Women's Sunday Services) for The Church of Jesus Christ of Latter-Day Saints of the City Ward on the 2nd and 4th Sundays of each month._ \
+       _Subscribe and click the bell for all alerts to get email notifications when we start._
    - Upload Defaults => Visibility
    - Upload Defaults => Advanced Settings => **Comments**
    - Permissions => Manage Permissions
@@ -143,7 +147,7 @@ If you want **more privacy**:
 
 That all said, before you can actually "Go Live", you need a Stream Key and broadcast software...
 
-# 5. How to get a Stream Key
+# 5. How to get a Stream URL + Key
 
 🚨 😬 You don't want **dirty content** on your live channel, so read this carefully.
 
@@ -176,6 +180,16 @@ _With all that out of the way..._
 3. Create a new Stream Key
    - Give the Key a name, such as "Church iPhone"
    - Leave Streaming protocol as RTMP (for most software: Larix, OBS, etc)
+
+What it looks like:
+
+```txt
+Stream URL: rtmp://a.rtmp.youtube.com/live2
+Stream Key: xxxx-xxxx-xxxx
+
+Stream URL + Key: rtmp://a.rtmp.youtube.com/live2/xxxx-xxxx-xxxx
+(same as above, but joined together with a '/')
+```
 
 🚨 If you ever need to disable a key because a device was stolen or gotten into
 (or you don't trust the person you gave it to), you can simply go back to **Manage stream keys** and remove that key.
