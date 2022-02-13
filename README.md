@@ -193,3 +193,43 @@ Stream URL + Key: rtmp://a.rtmp.youtube.com/live2/xxxx-xxxx-xxxx
 
 🚨 If you ever need to disable a key because a device was stolen or gotten into
 (or you don't trust the person you gave it to), you can simply go back to **Manage stream keys** and remove that key.
+
+# 6. How to setup your Phone for Broadcast
+
+1. Download and Open "Larix Broadcaster" (or just "Larix") from your phone's App Store
+2. Set up a Connection
+   - Tap the Gear Icon
+   - Tap "Connections"
+   - Tap `+`
+   - Name it the same as your Channel or scheduled stream
+   - Use the Stream URL + Key style URL
+     - Ex: `rtmp://a.rtmp.youtube.com/live2/xxxx-xxxx-xxxx`
+   - Save
+3. Set the Video Resolution down to (regular) HD
+   - Tap "Video"
+   - Set "Resolution" to 1280x720 (720p or "HD") \
+     (looks great, and works great on slow internet without the dreaded "buffering")
+   - Set "Frame rate" to 25 \
+     (again, looks professional and safe for slow internet)
+   - Set "H.264 profile" to Main \
+     (better compression for modern phones and computers)
+4. Change the Audio Input to an External Mic (if you have one)
+   - Tap "Audio"
+   - Set "Input" to "Headset Micrphone" (plugged in) or "Bluetooth Microphone" (wireless)
+
+**Note**: if you don't have an external mic, keep the phone in direct line of sight of the speaker,as close as you can.
+
+For all other settings the defaults should do just fine.
+
+Remember that **audio** is MUCH more important than video.
+
+# 7. How to setup your Computer for Broadcast
+
+OBS is the industry standard and what most people use.
+
+It gives you a ton of flexability - transitions, mixing microphones, multiple cameras (including phones!), etc -
+but it's more than a 5 minute setup.
+
+I'd recommend you test everything out with Larix on your phone first and then learn OBS with one of these:
+- Alpha Gaming's [OBS For Brand New Streamers](https://www.youtube.com/watch?v=EuSUPpoi0Vs)
+- Casey Faris' [How to Live Stream Anything](https://www.youtube.com/watch?v=ZTA_X5-GqLQ)
