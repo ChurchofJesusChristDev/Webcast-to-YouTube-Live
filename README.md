@@ -26,6 +26,8 @@ Once your YouTube Live account is ready you'll be able to access your RTMP strea
 and update the Larix app to broadcast to the new URL
 (this is the same process as with other software, such as OBS, for YouTube, Twitch, etc).
 
+_a picture costs 1,000 words..._
+
 # 1. How to create a YouTube Channel
 
 1. Sign in to https://youtube.com
@@ -47,6 +49,10 @@ and update the Larix app to broadcast to the new URL
 4. If you select the "Basic Info" tab you can give a description of the service,
    the official church website, and other services, if you like
 
+Example of a good description:
+
+> 10am Relief Society (Women's Sunday Services) for The Church of Jesus Christ of Latter-Day Saints of the City Ward on the 2nd and 4th Sundays of each month.
+
 # 2b. How to Update YouTube Channel Privacy Settings
 
 1. Click "Your Channel" from the Account dropdown
@@ -56,6 +62,8 @@ and update the Larix app to broadcast to the new URL
    - Basic Info => Keywords => Christian
    - Advanced Settings => **Not for kids**
    - Upload Defaults => Title, Description, Tags
+     - Example Title: _City Ward Relief Society 10am Sunday Service (2nd & 4th Sundays)_
+     - Example Description: _10am Relief Society (Women's Sunday Services) for The Church of Jesus Christ of Latter-Day Saints of the City Ward on the 2nd and 4th Sundays of each month._
    - Upload Defaults => Visibility
    - Upload Defaults => Advanced Settings => **Comments**
    - Permissions => Manage Permissions
@@ -77,21 +85,97 @@ To add moderators you must use their channel URL (the url that they get from cli
 Applying to YouTube Live will require phone verification and will enable
 any features that are only available to verified channels.
 
-1. Sign in to https://youtube.com
-2. Select your Church channel from list under the Account Icon in the upper right \
-   **Note**: it may appear under the "Switch Accounts" list
-3. Click on your Account Icon in the upper right (again)
-4. Select "YouTube Studio"
-   https://studio.youtube.com/
-5. Click through the annoying pop-ups / "Welcome Wizard"
-6. Click "Create" in the upper right
-7. Select "Go Live"
-8. Click "Enable"
-9. You will be require to Verify your account with a phone number. \
+1. Sign in to YouTube Studio for your Channel Account
+  - Sign in to https://youtube.com
+  - Select your Church channel from list under the Account Icon in the upper right \
+    **Note**: it may appear under the "Switch Accounts" list
+  - Click on your Account Icon in the upper right (again)
+  - Select "YouTube Studio"
+    https://studio.youtube.com/
+2. Click through the annoying pop-ups / "Welcome Wizard"
+3. Click "Create" in the upper right
+4. Select "Go Live"
+5. Click "Enable"
+6. You will be require to Verify your account with a phone number. \
    It's fine to use your personal phone number for now. \
    (this can be changed to a church number later). \
    **Note**: if you've recently verified a few accounts, you may need to use a different number)
-10. Close the Verify tab to go back to "YouTube Studio" \
+7. Close the Verify tab to go back to "YouTube Studio" \
     https://studio.youtube.com/
 
 You'll have to wait 24 hours for your Live channel to become active.
+
+# 4. How to set up YouTube Live (streams)
+
+After 24 hours, when your account is active, you'll want to activate some **privacy settings**:
+
+1. Sign in to YouTube Studio for your Channel Account
+  - Sign in to https://youtube.com
+  - Select your Church channel from list under the Account Icon in the upper right \
+    **Note**: it may appear under the "Switch Accounts" list
+  - Click on your Account Icon in the upper right (again)
+  - Select "YouTube Studio"
+    https://studio.youtube.com/
+2. Open the Live Settings
+  - Click **🎥 Create**
+  - Select **Go Live**
+  - Select **Right Now** and Start \
+    (or Later Date, it doesn't really matter)
+  - Select **Streaming software** and Go
+3. Edit **Stream Settings**
+  - Ultra low-latency \
+    (**less delay** between real life and the stream)
+  - **Unlist** live replay once stream ends \
+    (doesn't show the recording in the public video list - but doesn't delete it either)
+4. Edit **Recording Settings**
+  - Click "Edit", up by Title
+  - Under "Details"
+    - Visibility should be "Public" \
+      (assuming you want visitors to the channel URL to see when you're live)
+    - Uncheck "Allow Embedding"
+  - Under "Customization"
+    - Uncheck "Live chat" (or limit to Subscribers)
+
+If you want **more privacy**:
+- Use **Schedule Stream** each week (rather than a default stream)
+- Completely _unlist_ the stream by default (back in channel settings, and stream settings)
+- Email the scheduled link out to members each week
+
+That all said, before you can actually "Go Live", you need a Stream Key and broadcast software...
+
+# 5. How to get a Stream Key
+
+🚨 😬 You don't want **dirty content** on your live channel, so read this carefully.
+
+There are a bunch of hooligans out there that enjoy "Zoom-bombing" (pulling distasteful pranks)
+and if they get ahold of your stream key, they can publish whatever they want to your channel.
+
+Your unwitting subscribers will get a link to whatever they publish.
+
+Whoever has a laptop or phone that has a stream key should keep it safe:
+- 🔐 Password protect the device
+- 🔞 Keep out of the hands of mischievous kids (i.e. in the congretation)
+- 👮‍♂️ Report to the tech specialist if a device with a stream key is taken
+
+_With all that out of the way..._
+
+1. Sign in to YouTube Live for your Channel Account
+  - Sign in to https://youtube.com
+  - Select your Church channel from list under the Account Icon in the upper right \
+    **Note**: it may appear under the "Switch Accounts" list
+  - Click on your Account Icon in the upper right (again)
+  - Select "YouTube Studio"
+    https://studio.youtube.com/
+  - Click **🎥 Create**
+  - Select **Go Live**
+2. Open the Key Manager
+  - Click on the Stream (broadcast) icon in the left menu
+  - Look under "Stream key"
+  - Look under "Select stream key"
+  - Select **Create new stream key** (or **Manage stream keys**)
+3. Create a new Stream Key
+  - Give the Key a name, such as "Church iPhone"
+  - Leave Streaming protocol as RTMP (for most software: Larix, OBS, etc)
+
+🚨 If you ever need to disable a key because a device was stolen or gotten into
+(or you don't trust the person you gave it to), you can simply go back to **Manage stream keys** and remove that key.
